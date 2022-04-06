@@ -1,3 +1,11 @@
+<!--
+Hey, thanks that you use the awesome-readme-template template.  
+If you have any enhancements, than fork this project and create a pull request 
+or simply open a issue with the "enhancement" label.
+
+Don't forget to give this project a star for extra support ;)
+Maybe you can also mention me or this repo in the acknowledgements
+-->
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />

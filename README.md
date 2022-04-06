@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/logo.png" alt="logo" width="100" height="auto" />
+  <img src="assets/logo.png" alt="logo" width="200" height="auto" />
   <h1>Awesome Readme Template</h1>
   
   <p>
@@ -8,10 +8,13 @@
   </p>
   
   
-  <!-- Badges -->
-  <p>
+<!-- Badges -->
+<p>
   <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
   </a>
   <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
     <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
@@ -27,7 +30,7 @@
   </a>
 </p>
    
-  <h4>
+<h4>
     <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
   <span> · </span>
     <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
@@ -40,93 +43,110 @@
 
 <br />
 
-#  Table of Content
-  <ul>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Bu</a></li>
-        <li><a href="#features">Features</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-      <li><a href="#roadmap">Roadmap</a></li>
-        <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+<!-- Table of Content -->
+# :notebook_with_decorative_cover: Table of Content
+- [Table of Content](#table-of-content)
+  * [About the Project](#about-the-project)
+    + [Screenshots](#screenshots)
+    + [Tech Stack](#tech-stack)
+    + [Features](#features)
+    + [Color Reference](#color-reference)
+    + [Environment Variables](#environment-variables)
+  * [Getting Started](#getting-started)
+    + [Prerequisites](#prerequisites)
+    + [Installation](#installation)
+    + [Running Tests](#running-tests)
+    + [Run Locally](#run-locally)
+    + [Deployment](#deployment)
+  * [Usage/Examples](#usage)
+  * [Roadmap](#roadmap)
+  * [Contributing](#contributing)
+    + [Code of Conduct](#code-of-conduct)
+  * [FAQ](#faq)
+  * [License](#license)
+  * [Contact](#contact)
+  * [Acknowledgements](#acknowledgements)
   
-  
-## About the Project
+
+<!-- About the Project -->
+## :star2: About the Project
 
 
-
-### Screenshots
+<!-- Screenshots -->
+### :camera: Screenshots
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Hello+World" alt="screenshot" />
+  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
 </div>
 
 
-### Tech Stack
+<!-- TechStack -->
+### :space_invader: Tech Stack
 
-#### Client
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+    <li><a href="https://nextjs.org/">Next.js</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+  </ul>
+</details>
 
-* [TypeScript](https://www.typescriptlang.org/)
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [TailwindCss](https://tailwindcss.com/)
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://go.dev/">Golang</a></li>
+    <li><a href="https://nestjs.com/">Nest.js</a></li>
+    <li><a href="https://socket.io/">SocketIO</a></li>
+    <li><a href="https://www.prisma.io/">Prisma</a></li>    
+    <li><a href="https://www.apollographql.com/">Apollo</a></li>
+    <li><a href="https://graphql.org/">GraphQL</a></li>
+  </ul>
+</details>
 
-#### Server 
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.mysql.com/">MySQL</a></li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://redis.io/">Redis</a></li>
+    <li><a href="https://neo4j.com/">Neo4j</a></li>
+    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
+  </ul>
+</details>
 
-* [TypeScript](https://www.typescriptlang.org/)
-* [Express.js](https://expressjs.com/)
-* [Golang](https://go.dev/)
-* [Nest.js](https://nestjs.com/)
-* [Socket.IO](https://socket.io/)
-* [Prisma](https://www.prisma.io/)
-* [Apollo](https://www.apollographql.com/)
-* [GraphQL](https://graphql.org/)
+<details>
+<summary>DevOps</summary>
+  <ul>
+    <li><a href="https://www.docker.com/">Docker</a></li>
+    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
+    <li><a href="https://circleci.com/">CircleCLI</a></li>
+  </ul>
+</details>
 
-#### Database
-
-* [MySQL](https://www.mysql.com/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [Redis](https://redis.io/)
-* [Neo4j](https://neo4j.com/)
-* [MongoDB](https://www.mongodb.com/)
-
-#### DevOps
-
-* [Jenkins](https://www.jenkins.io/)
-* [Docker](https://www.docker.com/)
-* [CircleCI](https://circleci.com/)
-
-
-### Features
+<!-- Features -->
+### :dart: Features
 
 - Feature 1
 - Feature 2
 - Feature 3
 
-### Color Reference
+<!-- Color Reference -->
+### :art: Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Secondary Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Accent Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Text Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
+| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
+| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
+| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
 
 
-### Environment Variables
+<!-- Env Variables -->
+### :key: Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
@@ -134,10 +154,11 @@ To run this project, you will need to add the following environment variables to
 
 `ANOTHER_API_KEY`
 
+<!-- Getting Started -->
+## 	:toolbox: Getting Started
 
-## Getting Started
-
-### Prerequisites
+<!-- Prerequisites -->
+### :bangbang: Prerequisites
 
 This project uses Yarn as package manager
 
@@ -145,7 +166,8 @@ This project uses Yarn as package manager
  npm install --global yarn
 ```
 
-### Installation
+<!-- Installation -->
+### :gear: Installation
 
 Install my-project with npm
 
@@ -153,8 +175,9 @@ Install my-project with npm
   yarn install my-project
   cd my-project
 ```
-    
-### Running Tests
+   
+<!-- Running Tests -->
+### :test_tube: Running Tests
 
 To run tests, run the following command
 
@@ -162,8 +185,8 @@ To run tests, run the following command
   yarn test test
 ```
 
-
-### Run Locally
+<!-- Run Locally -->
+### :running: Run Locally
 
 Clone the project
 
@@ -190,7 +213,8 @@ Start the server
 ```
 
 
-### Deployment
+<!-- Deployment -->
+### :triangular_flag_on_post: Deployment
 
 To deploy this project run
 
@@ -199,20 +223,11 @@ To deploy this project run
 ```
 
 
-## Contributing
+<!-- Usage -->
+## :eyes: Usage
 
-Contributions are always welcome!
+Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
 
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-### Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
-
-
-## Usage/Examples
 
 ```javascript
 import Component from 'my-project'
@@ -222,41 +237,64 @@ function App() {
 }
 ```
 
-## Roadmap
+<!-- Roadmap -->
+## :compass: Roadmap
 
-* [ ] Additional browser support
-
-* [ ] Add dark mode
-
-
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
+* [x] Todo 1
+* [ ] Todo 2
 
 
-## License
+<!-- Contributing -->
+## :wave: Contributing
 
-[MIT](https://choosealicense.com/licenses/mit/)
+<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
+</a>
 
 
-## Contact
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+
+<!-- Code of Conduct -->
+### :scroll: Code of Conduct
+
+Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
+
+<!-- FAQ -->
+## :grey_question: FAQ
+
+- Question 1
+
+  + Answer 1
+
+- Question 2
+
+  + Answer 2
+
+
+<!-- License -->
+## :warning: License
+
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See LICENSE.txt for more information.
+
+
+<!-- Contact -->
+## :handshake: Contact
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
 Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
 
-## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+<!-- Acknowledgments -->
+## :gem: Acknowledgements
+
+Use this section to mention useful resources and libraries that you have used in your projects.
+
+ - [Shields.io](https://shields.io/)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
+ - [Readme Template](https://github.com/othneildrew/Best-README-Template)
 
-
-
-<!-- Links -->

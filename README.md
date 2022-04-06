@@ -1,10 +1,10 @@
 <!--
-Hey, thanks that you use the awesome-readme-template template.  
-If you have any enhancements, than fork this project and create a pull request 
-or simply open a issue with the "enhancement" label.
+Hey, thanks for using the awesome-readme-template template.  
+If you have any enhancements, then fork this project and create a pull request 
+or just open an issue with the label "enhancement".
 
-Don't forget to give this project a star for extra support ;)
-Maybe you can also mention me or this repo in the acknowledgements
+Don't forget to give this project a star for additional support ;)
+Maybe you can mention me or this repo in the acknowledgements too
 -->
 <div align="center">
 

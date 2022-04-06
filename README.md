@@ -45,7 +45,7 @@
 
 <!-- Table of Content -->
 # :notebook_with_decorative_cover: Table of Content
-- [Table of Content](#table-of-content)
+- [Table of Contents](#table-of-contents)
   * [About the Project](#about-the-project)
     + [Screenshots](#screenshots)
     + [Tech Stack](#tech-stack)

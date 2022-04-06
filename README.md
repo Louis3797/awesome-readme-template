@@ -25,9 +25,7 @@
   <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
     <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template" alt="license" />
-  </a>
+
 </p>
    
 <h4>

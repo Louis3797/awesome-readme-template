@@ -43,8 +43,8 @@
 
 <br />
 
-<!-- Table of Content -->
-# :notebook_with_decorative_cover: Table of Content
+<!-- Table of Contents -->
+# :notebook_with_decorative_cover: Table of Contents
 - [Table of Contents](#table-of-contents)
   * [About the Project](#about-the-project)
     + [Screenshots](#screenshots)

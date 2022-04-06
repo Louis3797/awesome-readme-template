@@ -58,7 +58,7 @@
     + [Running Tests](#running-tests)
     + [Run Locally](#run-locally)
     + [Deployment](#deployment)
-  * [Usage/Examples](#usage)
+  * [Usage](#usage)
   * [Roadmap](#roadmap)
   * [Contributing](#contributing)
     + [Code of Conduct](#code-of-conduct)

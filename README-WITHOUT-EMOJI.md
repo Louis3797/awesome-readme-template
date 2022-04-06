@@ -286,7 +286,7 @@ Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-te
 <!-- License -->
 ## License
 
-Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See LICENSE.txt for more information.
+Distributed under the no License. See LICENSE.txt for more information.
 
 
 <!-- Contact -->
